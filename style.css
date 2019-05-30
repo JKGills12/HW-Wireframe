@@ -8,7 +8,7 @@ body{
     font-size:18px;
     line-height: 32px;
     width:960px;
-    margin-left:195px;
+    margin-left: 280px;
     color:#777;
     background:#777;
 }
@@ -21,6 +21,7 @@ header{
 }
 
 nav{
+    margin: 0 auto;
     padding:20px;
     margin-bottom:10px;
     color:#333;
@@ -33,7 +34,7 @@ nav{
     width: 495px;
     height:260px;
     color: #333;
-    background:#ebebeb;
+    background:#ebebeb;    
 }
 
 #aside{
@@ -43,19 +44,20 @@ nav{
     padding:20px;
     color:#333;
     background:#ebebeb;
+    
 }
 
 #article{
     position: absolute;
     float: left;
     top:240px;
-    left:203px;
+    left:288px;
     height:180px;
     z-index: 1;
     width: 478px;
     padding:10px;
     color: #ebebeb;
-    background: #777;
+    background: #777;  
 }
 
 #heading{
@@ -63,18 +65,19 @@ nav{
     float:left;
     width:440px;
     top:300px;
-    left:220px;
+    left:306px;
     padding:8px;
     z-index: 2;
     color:#777;
     background:#ebebeb;
+    
 }
 
 #leftParagraph{
     position: absolute;
     float: left;
-    left:220px;
-    bottom:215px;
+    left:306px;
+    bottom:310px;
     width: 440px;
     padding:8px;
     z-index: 3;
@@ -87,5 +90,6 @@ footer{
     clear:both;
     color:#333;
     background:#ebebeb;
+
 }
 
